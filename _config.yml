@@ -1,0 +1,7 @@
+title: Open Web Collective
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
