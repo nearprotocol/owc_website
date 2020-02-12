@@ -22,7 +22,7 @@ function css() {
 }
 
 function watch() {
-	gulp.watch(['assets/style.css', '_site/**/*.html', 'tailwind.config.js'], gulp.series(css));
+	gulp.watch(['assets/style.css', '_includes/**/*.html', '_layouts/**/*.html', 'tailwind.config.js'], css);
 }
 
 exports.css = css;
