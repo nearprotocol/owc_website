@@ -4,20 +4,21 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		{%- seo -%}
-		<link rel="stylesheet" href="/assets/dist/style.css">
+		<link rel="stylesheet" href="/assets/style.min.css">
 		<link rel="stylesheet" href="https://use.typekit.net/emg8lcx.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	</head>
 
 	<body class="text-14 sm:text-16 md:text-18 font-sans text-midnight leading-relaxed">
-		<header class="container max-w-1360 flex justify-between items-center py-16">
-			<a href="/" class="block">
-				{%- include svgs/owc-logo.svg -%}
+		<header class="container max-w-1360 flex justify-between items-center py-8 md:py-16">
+			<a href="/" class="block w-48 md:w-auto">
+				<img src="/assets/img/owc-logo.svg" alt="">
 				<span class="sr-only">Open Web Collective</span>
 			</a>
 
 			<ul class="flex font-bold text-red">
-				<li class="mr-8"><a href="/program/" class="hover:text-midnight">Program Details</a></li>
-				<li><a href="#" class="hover:text-midnight">Apply Now</a></li>
+				<li class="mr-8"><a href="/program/" class="hover:text-midnight"><span class="hidden sm:inline">Program </span>Details</a></li>
+				<li><a href="https://openwebcollective.typeform.com/to/EYiUC8" class="hover:text-midnight" target="_blank">Apply <span class="hidden sm:inline">Now</span></a></li>
 			</ul>
 		</header>
 
@@ -25,23 +26,24 @@
 			{{ content }}
 		</main>
 
-		<footer class="bg-fog py-16 text-14 leading-normal font-medium">
+		<footer class="bg-fog py-8 md:py-16 text-14 leading-normal font-medium">
 			<div class="container max-w-1360">
-				<div class="row row-gutters justify-between">
-					<div class="col md:w-1/4">
+				<div class="row row-gutters justify-between -mt-8">
+					<div class="col md:w-1/4 mt-8">
 						<p>© {{ site.time | date: '%Y' }} Open Web Collective</p>
 						<p class="mt-4">181 2nd Street <br> San Francisco, CA 94105</p>
 					</div>
 
-					<div class="col md:w-5/12">
+					<div class="col md:w-5/12 mt-8">
 						<h4 class="sr-only">Open Web</h4>
-						{%- include svgs/ow-logo.svg -%}
-						<p class="mt-4">We are building the next generation of the internet, a truly open web: permissionless and composable. This enables experiences that are user-first and community-owned. <a href="#" class="text-blue hover:text-inherit">Learn more</a></p>
+						<img src="/assets/img/ow-logo.svg" alt="">
+						<p class="mt-4">We are building the next generation of the internet, a truly open web: permissionless and composable. This enables experiences that are user-first and community-owned. <a href="/program/" class="text-blue hover:text-inherit">Learn more</a></p>
 					</div>
 				</div>
 			</div>
 		</footer>
 
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script src="/assets/owc.js"></script>
 	</body>
 </html>

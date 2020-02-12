@@ -8,20 +8,21 @@ function css() {
 			require('tailwindcss'),
 			require('autoprefixer'),
 		]))
-		// .pipe(require('gulp-purgecss')({
-		// 	content: ['_site/**/*.html'],
-		// 	defaultExtractor: function(content) {
-		// 		return content.match(/[\w-/:]+(?<!:)/g) || [];
-		// 	},
-		// }))
-		// .pipe(postcss([
-		// 	require('postcss-clean'),
-		// ]))
-		.pipe(gulp.dest('assets/dist'));
+		.pipe(require('gulp-purgecss')({
+			content: ['_site/**/*.html'],
+			defaultExtractor: function(content) {
+				return content.match(/[\w-/:]+(?<!:)/g) || [];
+			},
+		}))
+		.pipe(postcss([
+			require('postcss-clean'),
+		]))
+		.pipe(require('gulp-rename')({ suffix: '.min' }))
+		.pipe(gulp.dest('assets'));
 }
 
 function watch() {
-	gulp.watch(['assets/style.css', '_site/**/*.html', 'tailwind.config.js'], css);
+	gulp.watch(['assets/style.css', '_site/**/*.html', 'tailwind.config.js'], gulp.series(css));
 }
 
 exports.css = css;

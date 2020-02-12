@@ -1,7 +1,8 @@
 (function() {
 
-	var lazyTubes = document.querySelectorAll('[data-lazytube]');
+	AOS.init();
 
+	var lazyTubes = document.querySelectorAll('[data-lazytube]');
 	for (var i = 0; i < lazyTubes.length; i++) {
 		var lazyTube = lazyTubes[i];
 

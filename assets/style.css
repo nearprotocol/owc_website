@@ -1,16 +1,28 @@
 @tailwind base;
 
+/* purgecss start ignore */
+
+img, svg, video, canvas, audio, iframe, embed, object { @apply max-w-full; }
+
 @tailwind components;
 
 h1, h2 { @apply font-bold text-36 leading-tight; }
 h3 { @apply font-bold text-24 leading-tight; }
 h4 { @apply font-bold text-18 leading-tight; }
+h5 { @apply font-bold text-18 leading-tight; }
 a { @apply text-inherit transition-all duration-150; }
 
 @screen md {
 	h1, h2 { @apply text-52; }
 	h3 { @apply text-36; }
 	h4 { @apply text-24; }
+}
+
+@responsive {
+	.two-col-text {
+		column-count: 2;
+		column-gap: 2rem;
+	}
 }
 
 .container { @apply max-w-1220 mx-auto px-8; }
@@ -29,9 +41,7 @@ a { @apply text-inherit transition-all duration-150; }
 	@apply absolute inset-0 bg-red opacity-75 transition-all duration-150;
 }
 
-[data-lazytube]:hover::before {
-	@apply opacity-50;
-}
+[data-lazytube]:hover::before { @apply opacity-50; }
 
 [data-lazytube]::after {
 	content: '';
@@ -40,15 +50,27 @@ a { @apply text-inherit transition-all duration-150; }
 	height: 72px;
 	top: 50%;
 	left: 50%;
-	background-image: url('../img/play.svg');
+	background-image: url('img/play.svg');
 }
 
-[data-lazytube]:hover::after {
-	@apply scale-110;
+[data-lazytube]:hover::after { @apply scale-110; }
+
+[data-lazytube] iframe { @apply absolute top-0 bottom-0 w-full h-full z-1; }
+
+.program-stage-title {
+	position: relative;
 }
 
-[data-lazytube] iframe {
-	@apply absolute top-0 bottom-0 w-full h-full;
+.program-stage-title::before {
+	content: '';
+	@apply absolute;
+	left: calc(1.5rem + 64px);
+	bottom: -7px;
+	width: 272px;
+	height: 33px;
+	background-image: url('img/stage-arrow.svg');
 }
+
+/* purgecss end ignore */
 
 @tailwind utilities;

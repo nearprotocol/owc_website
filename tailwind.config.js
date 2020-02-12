@@ -1,6 +1,15 @@
 module.exports = {
 	theme: {
 		extend: {
+			maxWidth: {
+				'full': '100%',
+			},
+			inset: {
+				'full': '100%',
+			},
+			zIndex: {
+				'1': '1',
+			}
 		},
 		colors: {
 			'black': '#000',
