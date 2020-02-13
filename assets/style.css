@@ -58,7 +58,7 @@ a { @apply text-inherit transition-all duration-150; }
 [data-lazytube] iframe { @apply absolute top-0 bottom-0 w-full h-full z-1; }
 
 .program-stage-title {
-	position: relative;
+	@apply relative;
 }
 
 .program-stage-title::before {
@@ -67,8 +67,10 @@ a { @apply text-inherit transition-all duration-150; }
 	left: calc(1.5rem + 64px);
 	bottom: -7px;
 	width: 272px;
+	max-width: calc(100vw - 4rem - 64px - 1.5rem);
 	height: 33px;
 	background-image: url('img/stage-arrow.svg');
+	background-position: right;
 }
 
 /* purgecss end ignore */
