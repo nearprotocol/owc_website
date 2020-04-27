@@ -1,0 +1,129 @@
+---
+layout: default
+---
+<div class="container py-12 md:py-24">
+	<div class="row row-gutters justify-between items-center -mt-12">
+		<div class="col md:w-1/2 mt-12">
+			<h1>We've been there</h1>
+			<p class="mt-6">Have you ever failed at building a company (or companies)? Always so close but never quite there?<br />
+Have you ever built a good product and then realized finding customers felt dang near impossible?<br />
+Have you ever been close to bankruptcy on Tuesday and then had 6 months of runway on Friday?<br />
+Have you ever had a bad fundraise?<br />
+</p>
+            <p class="mt-6">Well, we’ve all been there - we are a group of people who understand #founderproblems</p>
+		</div>
+
+		<div class="col md:w-1/2 mt-12" data-aos="fade-left">
+			{% include lazytube.html id="R2XaPhrrELU" %}
+		</div>
+	</div>
+</div>
+
+<div class="container py-12 md:py-24">
+	<h2>We are looking for...</h2>
+
+	<div class="row row-gutters">
+		{% assign i = 0 %}
+		{% for type in site.data.program.types %}
+			<div class="col lg:w-1/2 mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:3 | times:100 }}">
+				<h3 class="program-stage-title flex items-center"><img src="/assets/icons/{{ stage.icon }}" class="mr-6" alt=""> {{ stage.title }}</h3>
+				<p class="mt-6">{{ stage.text }}</p>
+			</div>
+			{% assign i = i | plus:1 %}
+		{% endfor %}
+	</div>
+</div>
+
+<div class="container py-12 md:py-24">
+	<h2>Curriculum</h2>
+
+	<div class="row row-gutters">
+		{% assign i = 0 %}
+		{% for subject in site.data.program.curriculum %}
+			<div class="col md:w-1/2 flex items-start mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:2 | times:100 }}">
+				<img src="/assets/icons/{{ benefit.icon }}" class="shrink-0 mr-8" alt="">
+
+				<div class="md:mr-8">
+					<h4>{{ subject.title }}</h4>
+					<p class="mt-2">{{ subject.text }}</p>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+		{% endfor %}
+	</div>
+</div>
+
+<div class="container py-12 md:py-24">
+	<h2>Benefits</h2>
+
+	<div class="row row-gutters">
+		{% assign i = 0 %}
+		{% for benefit in site.data.program.benefits %}
+			<div class="col md:w-1/2 flex items-start mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:2 | times:100 }}">
+				<img src="/assets/icons/{{ benefit.icon }}" class="shrink-0 mr-8" alt="">
+
+				<div class="md:mr-8">
+					<h4>{{ benefit.title }}</h4>
+					<p class="mt-2">{{ benefit.text }}</p>
+				</div>
+			</div>
+			{% assign i = i | plus:1 %}
+		{% endfor %}
+	</div>
+</div>
+
+<div class="py-12 md:py-24 lg:mb-12">
+	<div class="container">
+		<h2 class="lg:w-1/2 mb-12">Founders are talking about the Collective</h2>
+
+		<div class="row">
+			<div class="col lg:w-1/2 relative z-10">
+				{% include lazytube.html id="17FWZuxUexY" %}
+			</div>
+
+			<div class="col lg:w-1/2 relative">
+				<div class="flex top-0 mt-12 lg:absolute lg:-mt-16" data-aos="fade-right">
+					<div class="relative w-16 h-16 flex-shrink-0 mr-6">
+						<div class="absolute w-full h-full bottom-0 left-0 -ml-8 -mb-8 bg-smoke"></div>
+						<img src="/assets/mugs/chase.png" class="relative" alt="">
+					</div>
+
+					<div>
+						<blockquote class="font-bold text-28 leading-tight">“They walked with us  the entire way. We couldn’t have done it without them.”</blockquote>
+						<cite class="block text-14 font-medium mt-4 not-italic">Chase Freo, <span class="text-red"><a href="https://outplay.games/">Outplay Games</a></span></cite>
+					</div>
+				</div>
+
+				<div class="flex items-center lg:h-full" data-aos="fade-left">
+					<div class="flex flex-row-reverse mt-12 lg:ml-8 lg:mt-10">
+						<div class="relative w-16 h-16 flex-shrink-0 ml-12">
+							<div class="absolute w-full h-full bottom-0 left-0 -ml-8 -mb-8 bg-smoke"></div>
+							<img src="/assets/mugs/canaan.png" class="relative" alt="">
+						</div>
+
+						<div>
+							<blockquote class="font-bold text-28 leading-tight">“We got connected to the right people at the right time.”</blockquote>
+							<cite class="block text-14 font-medium mt-4 not-italic">Canaan Linder, <span class="text-red"><a href="https://stardust.gg/">Stardust</a></span></cite>
+						</div>
+					</div>
+				</div>
+
+				<div class="flex mt-16 lg:absolute lg:top-full lg:mt-0" data-aos="fade-right">
+					<div class="relative w-16 h-16 flex-shrink-0 mr-6">
+						<div class="absolute w-full h-full top-0 left-0 -ml-8 -mt-8 bg-smoke"></div>
+						<img src="/assets/mugs/nick.png" class="relative" alt="">
+					</div>
+
+					<div>
+						<blockquote class="font-bold text-28 leading-tight">“I’ve learned so much along the way. You helped us solve problems at crucial times. Kudos!”</blockquote>
+						<cite class="block text-14 font-medium mt-4 not-italic">Nick Emmons, <span class="text-red"><a href="https://www.linkedin.com/in/nickemmons/">UpShot Insurance</a></span></cite>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="py-12 md:py-24 container">
+	<h2>Ready to get started? <div data-aos="fade-up"><a href="https://openwebcollective.typeform.com/to/EYiUC8" class="pb-2 border-b-4 border-red text-red hover:text-midnight hover:border-midnight" target="_blank">Apply Now</a></div></h2>
+</div>

@@ -8,6 +8,14 @@ stages:
   - title: Acceleration
     text: "You have a killer product, and you have validated your business models - It is time to think about launch and/or traction. Admission to this stage is on a rolling basis and focuses on personalized growth strategy, fundraising, and mentorship from top industry advisors."
     icon: acceleration.svg
+    
+types:
+  - title: Explorers
+    text: "Detail your project and gain access to our vast community, global ecosystem, and exclusive content and events. Engage with the community through our chat and forums, intended to facilitate founder matching, use case development, and discourse."
+    icon: ideation.svg
+  - title: Builders
+    text: "Once you have designed a user-centric project, you are ready to think about what it takes to turn your project into a business. Validate your assumptions around product-market fit, go-to-market strategy and business models."
+    icon: validation.svg
 
 benefits:
   - title: Community
@@ -26,6 +34,26 @@ benefits:
     text: "Match with mentors from our network of web 3.0 professionals, as well as experts in the web 2.0. Gain practical advice on key issues: product, strategy, growth and fundraising."
     icon: mentors.svg
   - title: Hands-on Support
+    text: "Whether it’s cash or marketing or fundraising muscle, OWC is ready to roll up our sleeves to take your project to the next level."
+    icon: support.svg
+
+curriculum:
+  - title: Ideas
+    text: "Create, achieve, and inspire with the Collective. Connect with other like minded founders, developers and enthusiasts to solve problems, collaborate and learn."
+    icon: community.svg
+  - title: Getting Started
+    text: "With a disaggregated learning model, learn at your own pace and personalize your curriculum. Access online content from a range of topics such as product design, user testing, go-to-market strategy, token economics and marketing."
+    icon: knowledgebase.svg
+  - title: Fundraising
+    text: "Access to exclusive events and workshops led by highly successful entrepreneurs and industry experts, and other founders."
+    icon: events.svg
+  - title: Staying Alive
+    text: "With a vast network of founders, investors, technologists, and institutions, OWC is a global hub of connections and contacts."
+    icon: connections.svg
+  - title: Applying
+    text: "Match with mentors from our network of web 3.0 professionals, as well as experts in the web 2.0. Gain practical advice on key issues: product, strategy, growth and fundraising."
+    icon: mentors.svg
+  - title: Leadership
     text: "Whether it’s cash or marketing or fundraising muscle, OWC is ready to roll up our sleeves to take your project to the next level."
     icon: support.svg
 
@@ -78,3 +106,23 @@ mentors:
   - name: Paul Veradittakit
     creds: Pantera Capital
     mug: paulv_pantera.png
+    
+founders:
+  - name: Avichal Garg
+    creds: Electric Capital
+    mug: avichal_electric.png
+  - name: Linda Xie
+    creds: Scalar Capital
+    mug: linda_scalar.png
+  - name: Aleks Larsen
+    creds: Blockchain Capital
+    mug: aleks_blockchain.png
+  - name: Ali Yahya
+    creds: a16z
+    mug: ali_a16z.png
+  - name: Jesse Walden
+    creds: a16z Crypto Startup School
+    mug: jess_a16z.png
+  - name: Joyce Yang
+    creds: Global Coin Research
+    mug: joyce_globalcoin.png
