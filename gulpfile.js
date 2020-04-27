@@ -9,7 +9,7 @@ function css() {
 			require('autoprefixer'),
 		]))
 		.pipe(require('gulp-purgecss')({
-			content: ['_site/**/*.html'],
+			content: ['**/*.html'],
 			defaultExtractor: function(content) {
 				return content.match(/[\w-/:]+(?<!:)/g) || [];
 			},
