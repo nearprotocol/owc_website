@@ -23,7 +23,7 @@ benefits:
     icon: community.svg
   - title: Knowledgebase
     text: "With a disaggregated learning model, learn at your own pace and personalize your curriculum. Access online content from a range of topics such as product design, user testing, go-to-market strategy, token economics and marketing."
-    icon: knowledgebase.svg
+    icon: knowledge.svg
   - title: Events
     text: "Access to exclusive events and workshops led by highly successful entrepreneurs and industry experts, and other founders."
     icon: events.svg
@@ -40,22 +40,22 @@ benefits:
 curriculum:
   - title: Ideas
     text: "Create, achieve, and inspire with the Collective. Connect with other like minded founders, developers and enthusiasts to solve problems, collaborate and learn."
-    icon: community.svg
+    icon: ideas.svg
   - title: Getting Started
     text: "With a disaggregated learning model, learn at your own pace and personalize your curriculum. Access online content from a range of topics such as product design, user testing, go-to-market strategy, token economics and marketing."
-    icon: knowledgebase.svg
+    icon: start.svg
   - title: Fundraising
     text: "Access to exclusive events and workshops led by highly successful entrepreneurs and industry experts, and other founders."
-    icon: events.svg
+    icon: funds.svg
   - title: Staying Alive
     text: "With a vast network of founders, investors, technologists, and institutions, OWC is a global hub of connections and contacts."
-    icon: connections.svg
+    icon: alive.svg
   - title: Applying
     text: "Match with mentors from our network of web 3.0 professionals, as well as experts in the web 2.0. Gain practical advice on key issues: product, strategy, growth and fundraising."
     icon: mentors.svg
   - title: Leadership
     text: "Whether it’s cash or marketing or fundraising muscle, OWC is ready to roll up our sleeves to take your project to the next level."
-    icon: support.svg
+    icon: lead.svg
 
 mentors:
   - name: Avichal Garg
