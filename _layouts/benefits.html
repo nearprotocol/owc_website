@@ -28,7 +28,7 @@ layout: default
 		{% assign i = 0 %}
 		{% for type in site.data.program.types %}
 			<div class="col lg:w-1/2 mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:3 | times:100 }}">
-				<h3 class="items-center"><img src="/assets/icons/{{ type.icon }}" class="mr-6" width="90" height="45"> {{ type.title }}</h3>
+				<h3 class="items-center"><img src="/assets/icons/{{ type.icon }}" class="mr-6" width="144" height="72"> {{ type.title }}</h3>
 				<p class="mt-6">{{ type.text }}</p>
 			</div>
 			{% assign i = i | plus:1 %}
