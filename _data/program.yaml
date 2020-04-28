@@ -39,16 +39,16 @@ benefits:
 
 curriculum:
   - title: Ideas
-    text: "&bull; text <br>&bull; text <br>&bull; text <br>"
+    text: "&bull; Create a new concept with design-thinking, understand the user and challenge assumptions <br>&bull; Customer Discovery Workshop: Identify your customer & what problem you will help them solve? <br>&bull; Idea Validation & Testing <br>"
     icon: ideas.svg
   - title: Getting Started
-    text: "&bull; text <br>&bull; text <br>&bull; text <br>"
+    text: "&bull; Founder x Developer Matching <br>&bull; Building an MVP <br>&bull; Acquiring New users/customers <br>&bull; User Research 101 Workshop <br>"
     icon: start.svg
   - title: Fundraising
-    text: "&bull; text <br>&bull; text <br>&bull; text <br>"
+    text: "&bull; A Fundraising Survival Guide: Do’s & Don’ts <br>&bull; Storytelling and perfecting your Pitch <br>&bull; Outlining Funding Objectives and Goals <br>"
     icon: funds.svg
   - title: Staying Alive
-    text: "&bull; text <br>&bull; text <br>&bull; text <br>"
+    text: "&bull; How Not to Die <br>&bull; The Hardest Lessons for Startups to Lear <br>&bull; On Shutting Down <br>"
     icon: alive.svg
   - title: Applying
     text: "&bull; Learn from experts in crypto on legal and regulatory matters <br>&bull; Learn how to manage your startups’ finances <br>&bull; Organization Scaling Workshop <br>"
