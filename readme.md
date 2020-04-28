@@ -1,5 +1,13 @@
 
-Site is built using Jekyll
+*Site is built using Jekyll*
+
+*When editing:*
+
+npm i
+
+gulp
+
+*Edit Content*
 
 Add main pages: [filename].md
 
@@ -13,8 +21,3 @@ Image content: assets/img/
 
 Headshots: assets/mugs/
 
-When editing:
-
-npm i
-
-gulp
