@@ -14,4 +14,3 @@ gulp'
 - Homepage CTAs: /_includes/actions.html
 - Image content: assets/img/
 - Headshots: assets/mugs/
-
