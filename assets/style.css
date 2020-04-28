@@ -6,7 +6,7 @@ img, svg, video, canvas, audio, iframe, embed, object { @apply max-w-full; }
 
 @tailwind components;
 
-h1 { @apply font-bold text-48 leading-none; }
+h1 { @apply font-bold text-36 leading-none; }
 h2 { @apply font-bold text-36 leading-tight; }
 h3 { @apply font-bold text-24 leading-tight; }
 h4 { @apply font-bold text-18 leading-tight; }
