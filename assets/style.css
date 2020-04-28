@@ -84,7 +84,7 @@ a { @apply text-inherit transition-all duration-150; }
   position: absolute;
   margin: auto;
   left: 0;
-  top: 0.5em;
+  top: 1em;
   right: 0;
   opacity: 0; 
 }
