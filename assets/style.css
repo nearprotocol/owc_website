@@ -77,14 +77,20 @@ a { @apply text-inherit transition-all duration-150; }
 
 @tailwind utilities;
 
-.ml4 {
+.ml6 {
   position: relative;
 }
-.ml4 .letters {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  top: 1em;
-  right: 0;
-  opacity: 0; 
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 0.3em;
 }
