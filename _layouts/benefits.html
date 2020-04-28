@@ -44,7 +44,7 @@ layout: default
 		{% assign i = 0 %}
 		{% for subject in site.data.program.curriculum %}
 			<div class="col md:w-1/2 flex items-start mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:2 | times:100 }}">
-				<img src="/assets/icons/{{ subject.icon }}" class="shrink-0 mr-8" alt="">
+				<img src="/assets/icons/{{ subject.icon }}" width="64" height="64" class="shrink-0 mr-8" alt="">
 
 				<div class="md:mr-8">
 					<h4>{{ subject.title }}</h4>
@@ -63,7 +63,7 @@ layout: default
 		{% assign i = 0 %}
 		{% for benefit in site.data.program.benefits %}
 			<div class="col md:w-1/2 flex items-start mt-12" data-aos="fade-up" data-aos-delay="{{ i | modulo:2 | times:100 }}">
-				<img src="/assets/icons/{{ benefit.icon }}" class="shrink-0 mr-8" alt="">
+				<img src="/assets/icons/{{ benefit.icon }}" width="64" height="64" class="shrink-0 mr-8" alt="">
 
 				<div class="md:mr-8">
 					<h4>{{ benefit.title }}</h4>
