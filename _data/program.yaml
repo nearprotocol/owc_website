@@ -12,10 +12,10 @@ stages:
 types:
   - title: Explorers
     text: "Detail your project and gain access to our vast community, global ecosystem, and exclusive content and events. Engage with the community through our chat and forums, intended to facilitate founder matching, use case development, and discourse."
-    icon: ideation.svg
+    icon: explorers.svg
   - title: Builders
     text: "Once you have designed a user-centric project, you are ready to think about what it takes to turn your project into a business. Validate your assumptions around product-market fit, go-to-market strategy and business models."
-    icon: validation.svg
+    icon: builders.svg
 
 benefits:
   - title: Community
